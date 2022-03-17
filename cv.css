@@ -1,0 +1,211 @@
+
+body{
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    background: linear-gradient(#4d9ab8 , #02306c );
+
+}
+
+/* BLOCK HEAD */
+
+.img-logo{
+    width: 3em;
+    background: linear-gradient(#4d9ab8 , #02306c );
+    border-radius: 50%;
+    display: block center;
+}
+
+.navbar{
+    display: flex;
+    flex-direction: column;
+    background-color: #02306c;
+    width: 100%;
+}
+
+.navbar a{
+    color: #E0EBF5;
+    text-align: center;
+    text-decoration: none;
+    text-align: center;
+    font-size: 1.5em;
+}
+
+.navbar a:hover {
+    color: #4d9ab8;
+}
+
+.dropdown-menu.show{
+    background-color: #02306c;
+}
+
+.navbar-toggler-icon{
+    color: #4d9ab8;
+    font-size: 2em;
+    padding-top:0.1em;
+    
+}
+
+.navbar-collapse{
+
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+/* BLOCK MAIN */
+
+
+#resume {
+    background-color: aliceblue;
+    color: #02306c;
+}
+
+#resume .row{
+    padding: 1em 1em 0em 1em;
+}
+
+h1{
+    display: flex;
+    justify-content: flex-end;
+}
+
+h2{
+    display: flex;
+    justify-content: flex-end;
+}
+
+h3{
+    padding-top: 2em;
+
+}
+
+h4{
+    display: flex;
+    justify-content: center;
+    color: #02306c;
+    padding-top: 2em ;
+    padding-bottom: 2em;
+}
+
+.resume-skill{
+    font-size: 1.3em;
+    padding-bottom: 1em;
+    display: flex;
+    justify-content: center;
+}
+
+.resume-skill a{
+    padding-left: 0.1em;
+    text-decoration: none;
+    font-weight: bold;
+    color: #02306c;
+}
+
+.resume-skill a:hover{
+    color: #4d9ab8;
+}
+
+#skill{
+    background-color: aliceblue;
+    padding: 1em 1.5em;
+    padding-top: 5em;
+}
+
+.card{
+    margin: 2em;
+    padding: 1em;
+    height: 20em;
+    border-radius: 10% !important;
+}
+
+.card-body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.card-body a{
+    color: #02306c;
+    text-decoration: none; 
+    font-size: 1.6em; 
+    
+}
+
+.card-body a:hover {
+    color: #4d9ab8;
+}
+
+.card1{
+    background-image: url(./IMG/html-logo.png);
+    background-size: 60%;
+    background-repeat: no-repeat;
+    background-position: center;    
+}
+
+.card2{
+    background-image: url(../devcard/IMG/css-logo.png);
+    background-size: 60%;
+    background-repeat: no-repeat;
+    background-position: center; 
+}
+
+.card3{
+    background-image: url(../devcard/IMG/js-logo.png);
+    background-size: 60%;
+    background-repeat: no-repeat;
+    background-position: center; 
+}
+
+.card4{
+    background-image: url(../devcard/IMG/php-logo.png);
+    background-size: 60%;
+    background-repeat: no-repeat;
+    background-position: center; 
+}
+
+.card5{
+    background-image: url(../devcard/IMG/mysql-logo.png);
+    background-size: 60%;
+    background-repeat: no-repeat;
+    background-position: center; 
+}
+
+.card6{
+    background-image: url(../devcard/IMG/json-csv-logo.png);
+    background-size: 60%;
+    background-repeat: no-repeat;
+    background-position: center; 
+}
+
+li {
+    list-style-type: none;
+}
+/* FOOTER */
+
+footer{
+    padding: 1.5em;
+}
+
+.footer{
+    display: flex;
+    justify-content:  center;
+}
+
+footer i{
+    color: #E0EBF5;
+    font-size: 2em;
+}
+
+footer p{
+    color: #E0EBF5;
+    font-size: 0.8em;
+    margin-bottom: 3em;
+    margin-top: 3em;
+}
+
+footer p i{
+    color: #E0EBF5;
+    font-size: 1em;
+}
+
