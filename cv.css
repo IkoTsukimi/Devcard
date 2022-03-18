@@ -53,6 +53,37 @@ body{
 
 
 /* BLOCK MAIN */
+.tracking-in-expand {
+	-webkit-animation: tracking-in-expand 0.7s cubic-bezier(0.470, 0.000, 0.745, 0.715) ;
+	        animation: tracking-in-expand 0.7s cubic-bezier(0.470, 0.000, 0.745, 0.715) ;
+}
+
+@-webkit-keyframes tracking-in-expand {
+    0% {
+      letter-spacing: -0.5em;
+      opacity: 0;
+    }
+    40% {
+      opacity: 0.6;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  @keyframes tracking-in-expand {
+    0% {
+      letter-spacing: -0.5em;
+      opacity: 0;
+    }
+    40% {
+      opacity: 0.6;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  
+
 
 
 #resume {
@@ -137,42 +168,42 @@ h4{
 }
 
 .card1{
-    background-image: url(IMG/html-logo.png);
+    background-image: url(./IMG/html-logo.png);
     background-size: 60%;
     background-repeat: no-repeat;
     background-position: center;    
 }
 
 .card2{
-    background-image: url(IMG/css-logo.png);
+    background-image: url(./IMG/css-logo.png);
     background-size: 60%;
     background-repeat: no-repeat;
     background-position: center; 
 }
 
 .card3{
-    background-image: url(IMG/js-logo.png);
+    background-image: url(./IMG/js-logo.png);
     background-size: 60%;
     background-repeat: no-repeat;
     background-position: center; 
 }
 
 .card4{
-    background-image: url(IMG/php-logo.png);
+    background-image: url(./IMG/php-logo.png);
     background-size: 60%;
     background-repeat: no-repeat;
     background-position: center; 
 }
 
 .card5{
-    background-image: url(IMG/mysql-logo.png);
+    background-image: url(./IMG/mysql-logo.png);
     background-size: 60%;
     background-repeat: no-repeat;
     background-position: center; 
 }
 
 .card6{
-    background-image: url(IMG/json-csv-logo.png);
+    background-image: url(./IMG/json-csv-logo.png);
     background-size: 60%;
     background-repeat: no-repeat;
     background-position: center; 
@@ -191,6 +222,81 @@ footer{
     display: flex;
     justify-content:  center;
 }
+
+.heartbeat {
+	-webkit-animation: heartbeat 1.5s ease-in-out infinite both;
+	        animation: heartbeat 1.5s ease-in-out infinite both;
+}
+
+@-webkit-keyframes heartbeat {
+    from {
+      -webkit-transform: scale(1);
+              transform: scale(1);
+      -webkit-transform-origin: center center;
+              transform-origin: center center;
+      -webkit-animation-timing-function: ease-out;
+              animation-timing-function: ease-out;
+    }
+    10% {
+      -webkit-transform: scale(0.91);
+              transform: scale(0.91);
+      -webkit-animation-timing-function: ease-in;
+              animation-timing-function: ease-in;
+    }
+    17% {
+      -webkit-transform: scale(0.98);
+              transform: scale(0.98);
+      -webkit-animation-timing-function: ease-out;
+              animation-timing-function: ease-out;
+    }
+    33% {
+      -webkit-transform: scale(0.87);
+              transform: scale(0.87);
+      -webkit-animation-timing-function: ease-in;
+              animation-timing-function: ease-in;
+    }
+    45% {
+      -webkit-transform: scale(1);
+              transform: scale(1);
+      -webkit-animation-timing-function: ease-out;
+              animation-timing-function: ease-out;
+    }
+  }
+  @keyframes heartbeat {
+    from {
+      -webkit-transform: scale(1);
+              transform: scale(1);
+      -webkit-transform-origin: center center;
+              transform-origin: center center;
+      -webkit-animation-timing-function: ease-out;
+              animation-timing-function: ease-out;
+    }
+    10% {
+      -webkit-transform: scale(0.91);
+              transform: scale(0.91);
+      -webkit-animation-timing-function: ease-in;
+              animation-timing-function: ease-in;
+    }
+    17% {
+      -webkit-transform: scale(0.98);
+              transform: scale(0.98);
+      -webkit-animation-timing-function: ease-out;
+              animation-timing-function: ease-out;
+    }
+    33% {
+      -webkit-transform: scale(0.87);
+              transform: scale(0.87);
+      -webkit-animation-timing-function: ease-in;
+              animation-timing-function: ease-in;
+    }
+    45% {
+      -webkit-transform: scale(1);
+              transform: scale(1);
+      -webkit-animation-timing-function: ease-out;
+              animation-timing-function: ease-out;
+    }
+  }
+  
 
 footer i{
     color: #E0EBF5;
