@@ -144,35 +144,35 @@ h4{
 }
 
 .card2{
-    background-image: url(../devcard/IMG/css-logo.png);
+    background-image: url(.IMG/css-logo.png);
     background-size: 60%;
     background-repeat: no-repeat;
     background-position: center; 
 }
 
 .card3{
-    background-image: url(../devcard/IMG/js-logo.png);
+    background-image: url(./MG/js-logo.png);
     background-size: 60%;
     background-repeat: no-repeat;
     background-position: center; 
 }
 
 .card4{
-    background-image: url(../devcard/IMG/php-logo.png);
+    background-image: url(./IMG/php-logo.png);
     background-size: 60%;
     background-repeat: no-repeat;
     background-position: center; 
 }
 
 .card5{
-    background-image: url(../devcard/IMG/mysql-logo.png);
+    background-image: url(./IMG/mysql-logo.png);
     background-size: 60%;
     background-repeat: no-repeat;
     background-position: center; 
 }
 
 .card6{
-    background-image: url(../devcard/IMG/json-csv-logo.png);
+    background-image: url(./IMG/json-csv-logo.png);
     background-size: 60%;
     background-repeat: no-repeat;
     background-position: center; 
