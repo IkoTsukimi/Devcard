@@ -144,7 +144,7 @@ h4{
 }
 
 .card2{
-    background-image: url(.IMG/css-logo.png);
+    background-image: url(./IMG/css-logo.png);
     background-size: 60%;
     background-repeat: no-repeat;
     background-position: center; 
