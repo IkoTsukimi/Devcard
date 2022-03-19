@@ -121,8 +121,7 @@ h4{
 .resume-skill{
     font-size: 1.3em;
     padding-bottom: 1em;
-    display: flex;
-    justify-content: center;
+    text-align: center;
 }
 
 .resume-skill a{
